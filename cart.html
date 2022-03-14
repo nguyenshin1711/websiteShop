@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>   
+    <!-- font dancing script -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+       
+    <header>
+        <!-- mobile menu -->
+        <div class="mobile-menu bg-second">
+            <a href="#" class="mb-logo">Rawries</a>
+            <span class="mb-menu-toggle" id="mb-menu-toggle">
+                <i class='bx bx-menu'></i>
+            </span>
+        </div>
+        <!-- end mobile menu -->
+        
+        <!-- mid header -->
+        <div class="header-wrapper" id="header-wrapper">
+            <span class="mb-menu-toggle mb-menu-close" id="mb-menu-close">
+                <i class='bx bx-x'></i>
+            </span>
+
+            <div class="bg-main">
+                <div class="mid-header container">
+                    <div class="main-menu">
+                        <a href="index.html" class="menu-item">Home</a>
+                        <a href="products.html" class="menu-item">Shop</a>
+                        <a href="#" class="menu-item">Blog</a>
+                    </div>
+        
+                    <div class="search">
+                        <input type="text" placeholder="Search">
+                        <i class='bx bx-search-alt'></i>    
+                    </div>
+        
+                    <ul class="user-menu">
+                        <li><a href="#"><i class='user-menu-icon bx bx-bell'></i></a></li>
+                        <li>
+                            <a href="#">
+                                <i class='user-menu-icon bx bx-user-circle'></i>                      
+                            </a>
+                            <ul class="navsub">
+                                <li><a href="login_in.html">Login In</a></li>
+                                <li><a href="login_in.html">Sign Up</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li><a href="#"><i class='user-menu-icon bx bx-cart'></i></a></li>
+                    </ul>
+        
+                    
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+
+    
+    <!-- end mid header -->
+
+
+    <!-- shop cart  -->
+
+    <div class="box">
+        <div class="container-cart">
+
+            <div class="box">
+                <div class="breadcumb">
+                    <a href="./index.html">home</a>
+                    <span><i class='bx bxs-chevrons-right'></i></span>
+                    <a href="./products.html">Cart</a>
+                </div>
+            </div>
+
+            <div class="product-cart">
+                <div class="product-checkbox">
+                    <input type="checkbox" id="cart1" class="active">
+                    <span>Sản phẩm</span>
+                </div>              
+                <span class="item-list">Đơn Giá</span>
+                <span class="item-list">Số Lượng</span>
+                <span class="item-list">Số Tiền</span>
+                <span class="item-list">Thao Tác</span>
+            </div>
+
+            <div class="product-cart-list">
+                
+                <div class="product-cart-item">
+                    
+                    <div class="product-item">
+                        <input type="checkbox" id="cart2">
+                        <div class="item-img">
+                            <img src="https://i.pinimg.com/236x/a8/34/c8/a834c8f796c9160da617c30f48919675.jpg" alt="">
+                        </div>
+                        <div class="product-name">
+                            <p>Lake Summer SVG</p>
+                        </div>
+                    </div>
+                    <div class="product-price">
+                        <span>$230</span>
+                    </div>
+                    <div class="product-number">
+                        <button class="btn-number">-</button>
+                        <input type="text" value =1>
+                        <button class="btn-number">+</button>
+                    </div>
+
+                    <div class="product-amount">
+                        <span>$230</span>
+                    </div>
+                    <div class="product-delete">
+                        <button class="btn-icon btn-hover">Delete</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-cart-list">
+                
+                <div class="product-cart-item">
+                    
+                    <div class="product-item">
+                        <input type="checkbox" id="cart2">
+                        <div class="item-img">
+                            <img src="https://i.pinimg.com/736x/bd/b0/42/bdb042c027b4100a1a1383dcde6b04eb.jpg" alt="">
+                        </div>
+                        <div class="product-name">
+                            <p>Norwood-Crocker</p>
+                        </div>
+                    </div>
+                    <div class="product-price">
+                        <span>$250</span>
+                    </div>
+                    <div class="product-number">
+                        <button class="btn-number">-</button>
+                        <input type="text" value = 2>
+                        <button class="btn-number">+</button>
+                    </div>
+
+                    <div class="product-amount">
+                        <span>$500</span>
+                    </div>
+                    <div class="product-delete">
+                        <button class="btn-icon btn-hover">Delete</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-cart-list">
+                
+                <div class="product-cart-item">
+                    
+                    <div class="product-item">
+                        <input type="checkbox" id="cart2">
+                        <div class="item-img">
+                            <img src="https://i.pinimg.com/564x/9b/77/3f/9b773f2171078e126ef61771187526fd.jpg" alt="">
+                        </div>
+                        <div class="product-name">
+                            <p>Butterfly Shirt</p>
+                        </div>
+                    </div>
+                    <div class="product-price">
+                        <span>$280</span>
+                    </div>
+                    <div class="product-number">
+                        <button class="btn-number">-</button>
+                        <input type="text" value =1>
+                        <button class="btn-number">+</button>
+                    </div>
+
+                    <div class="product-amount">
+                        <span>$280</span>
+                    </div>
+                    <div class="product-delete">
+                        <button class="btn-icon btn-hover">Delete</button>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="product-cart">
+                
+                    <div class="products-all">
+                        <input type="checkbox" id="cart3">
+                        <span>Chọn Tất Cả</span>
+                    </div>
+                    <div class="product-payment">
+                        <p>Tổng Thanh Toán(3 Sản Phẩm): <span>$1010</span></p>
+                    </div>
+                    <div class="product-buy">
+                        <a href="Payment.html" class="btn-icon btn-hover">Mua Hàng</a>
+                    </div>
+                    
+                
+            </div>
+
+
+            <div class="box">
+                <div class="box-header">
+                    related products
+                </div>
+                <div class="row" id="related-products"></div>
+            </div>
+           
+        </div>
+
+
+    </div>
+
+    
+    
+   
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-menu">
+                <h3 class="footer-head">Products</h3>
+                <ul class="menu">
+                    <li><a href="#">Help center</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">product help</a></li>
+                    <li><a href="#">warranty</a></li>
+                    <li><a href="#">order status</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-menu">
+                <h3 class="footer-head">Services</h3>
+                <ul class="menu">
+                    <li><a href="#">Help center</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">product help</a></li>
+                    <li><a href="#">warranty</a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="footer-menu">
+                <h3 class="footer-head">Contact</h3>
+                <ul class="menu">
+                    <li><a href="#">
+                            <i class='bx bxs-phone-outgoing menu-icon'> 000 9584 098</i>
+                        </a>
+                    </li>
+                    <li><a href="#">
+                            <i class='bx bx-envelope menu-icon'> info@rawries.com</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-menu">
+                <div class="contact">
+                    <h3 class="contact-header">
+                        Rawries
+                    </h3>
+                    <ul class="contact-socials">
+                        <li><a href="#">
+                                <i class='bx bxl-facebook-circle'></i>
+                            </a></li>
+                        <li><a href="#">
+                                <i class='bx bxl-instagram-alt'></i>
+                            </a></li>
+                        <li><a href="#">
+                                <i class='bx bxl-youtube'></i>
+                            </a></li>
+                        <li><a href="#">
+                                <i class='bx bxl-twitter'></i>
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="subscribe">
+                    <input type="email" placeholder="ENTER YOUR EMAIL">
+                    <button>subscribe</button>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+
+    
+    
+    <script src="js/cart.js"></script>
+    
+</body>
+</html>
